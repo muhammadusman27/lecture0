@@ -1,0 +1,91 @@
+$color: #36393F;
+
+//	Novel table properties 
+
+#novel_background {
+	background-color: $color;
+}
+
+//	Cooking page properties 
+
+#cooking_background {
+	background-color: $color;
+}
+
+//	Movies page properties 
+
+#movies_background {
+	background-color: $color;
+}
+
+//	TV Series page properties 
+
+#tv-background {
+	background-color: $color;
+}
+
+
+// Nesting 
+
+	//	TV Series page properties 
+
+.col-lg-6 {
+	
+	#tv-paragraph {
+		font-family: Times New Roman;
+		color: white;
+		font-size: 18px;
+	}
+	
+	h5 {
+		font-family: Times New Roman;
+		color: white;
+		font-style: italic;
+	}
+
+	hr {
+		background-color: white;
+	}
+
+	#title {
+		font-family: Times New Roman;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	#content {
+		font-family: Times New Roman;
+		color: white;
+		font-size: 16px;
+		margin-left: 20px;
+	}
+
+	#mybt{
+		text-decoration: none;
+	}
+
+}
+
+//inheritence
+
+%myProperties {
+	color: white;
+	text-align: center;
+	text-weight: bold;
+	font-family: Times New Roman;
+}
+
+	//Novel table property
+
+h2 {
+	@extend %myProperties;
+	margin: 10px;
+}
+
+	//Cooking page property
+	
+.cooking_h1 {
+	@extend %myProperties;
+	margin: 25px;
+}

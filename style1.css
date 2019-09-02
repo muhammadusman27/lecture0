@@ -1,0 +1,61 @@
+#novel_background {
+  background-color: #36393F;
+}
+
+#cooking_background {
+  background-color: #36393F;
+}
+
+#movies_background {
+  background-color: #36393F;
+}
+
+#tv-background {
+  background-color: #36393F;
+}
+
+.col-lg-6 #tv-paragraph {
+  font-family: Times New Roman;
+  color: white;
+  font-size: 18px;
+}
+.col-lg-6 h5 {
+  font-family: Times New Roman;
+  color: white;
+  font-style: italic;
+}
+.col-lg-6 hr {
+  background-color: white;
+}
+.col-lg-6 #title {
+  font-family: Times New Roman;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.col-lg-6 #content {
+  font-family: Times New Roman;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.col-lg-6 #mybt {
+  text-decoration: none;
+}
+
+.cooking_h1, h2 {
+  color: white;
+  text-align: center;
+  text-weight: bold;
+  font-family: Times New Roman;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.cooking_h1 {
+  margin: 25px;
+}
+
+/*# sourceMappingURL=style1.css.map */
